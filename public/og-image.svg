@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <rect width="1200" height="630" fill="#f5f0e8"/>
+
+  <!-- Outer triangle: base 560px wide, height 485px, centred in the image -->
+  <polygon points="320,72 880,72 600,557" fill="none" stroke="#111111" stroke-width="2"/>
+
+  <!-- Level 1 (side 280) -->
+  <polygon points="600,72 460,315 740,315" fill="#111111"/>
+
+  <!-- Level 2 (side 140) -->
+  <polygon points="460,72 390,193 530,193" fill="#111111"/>
+  <polygon points="740,72 670,193 810,193" fill="#111111"/>
+  <polygon points="600,315 530,436 670,436" fill="#111111"/>
+
+  <!-- Level 3 (side 70) — three within each level-2 gap -->
+  <polygon points="390,72 355,133 425,133" fill="#111111"/>
+  <polygon points="530,72 495,133 565,133" fill="#111111"/>
+  <polygon points="460,193 425,254 495,254" fill="#111111"/>
+
+  <polygon points="670,72 635,133 705,133" fill="#111111"/>
+  <polygon points="810,72 775,133 845,133" fill="#111111"/>
+  <polygon points="740,193 705,254 775,254" fill="#111111"/>
+
+  <polygon points="530,315 495,376 565,376" fill="#111111"/>
+  <polygon points="670,315 635,376 705,376" fill="#111111"/>
+  <polygon points="600,436 565,497 635,497" fill="#111111"/>
+
+  <text x="600" y="601" text-anchor="middle"
+        font-family="system-ui, sans-serif" font-size="22"
+        fill="#111111" letter-spacing="4">TRIANGULAR RAIN</text>
+</svg>
